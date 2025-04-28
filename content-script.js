@@ -4,6 +4,9 @@
       const style = document.createElement("style");
       style.id = "image-overlay-styles";
       style.textContent = `
+        .image-overlay-wrapper {
+          position: relative;
+        }
         .image-url-overlay {
           position: absolute;
           bottom: 0;
@@ -18,12 +21,6 @@
           word-break: break-word;
           pointer-events: none;
           z-index: 9999;
-        }
-        .image-overlay-wrapper {
-          position: relative;
-          display: inline-block;
-          max-width: 100%;
-          max-height: 100%;
         }
         .image-overlay-wrapper:hover .image-url-overlay {
           min-width: 200px;
