@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Image URL Overlay",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "David Cordero",
   "description": "Show an overlay with the image URL on each image.",
   "icons": {
